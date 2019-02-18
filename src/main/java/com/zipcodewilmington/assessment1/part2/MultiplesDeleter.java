@@ -12,28 +12,30 @@ public class MultiplesDeleter {
      * given an array of integers, named `ints` return an identical array with evens removed
      */
     public Integer[] deleteEvens(Integer[] ints) {
-        for (int i = 0; i < ints.length; i++)
-            if (ints[i] % 2 == 0) {
-                int =ArrayUtils.removeValue(ints, ints[i]);
-            }
-        return ints;
+//        for (int i = 0; i < ints.length; i++)
+//            if (ints[i] % 2 == 0) {
+//                int =ArrayUtils.removeValue(ints, ints[i]);
+//            }
+//        return ints;
+//    }
+        return null;
+
     }
-
-
 
     /**
      * @param ints array of Integer objects
      * @return all ints which are divisible by 2
      * given an array of integers, named `ints` return an identical array with odds removed
      */
-    public Integer[] deleteOdds(Integer[] ints) {
-        for (int i = 0; i < ints.length; i++)
-            if (ints[i] % 2 == 1) {
-                int = ArrayUtils.removeValue(ints, ints[i]);
-            }
-    }
-       return int;
-}
+   public Integer[] deleteOdds(Integer[] ints) {
+    return null;}
+        //        for (int i = 0; i < ints.length; i++)
+//            if (ints[i] % 2 == 1) {
+//                int = ArrayUtils.removeValue(ints, ints[i]);
+//            }
+//    }
+//       return int;
+//}
 
     /**
      * @param ints array of Integer objects

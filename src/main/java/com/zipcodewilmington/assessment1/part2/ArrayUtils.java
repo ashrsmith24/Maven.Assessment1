@@ -38,7 +38,7 @@ public class ArrayUtils {
      * given an array of objects, named `objectArray` return the most frequently occuring object in the array
      */
     public static Object getMostCommon(Object[] objectArray) {
-        
+        return null;
 
     }
 
@@ -49,20 +49,21 @@ public class ArrayUtils {
      * given an array of objects, named `objectArray` return the least frequently occuring object in the array
      */
     public static Object getLeastCommon(Object[] objectArray) {
-      Integer[]counterForEachIndex = new Integer[objectArray.length];
-      for(int i =0; i<objectArray.length; i++){
-          counterForEachIndex[i] = getNumberOfOccurrences(objectArray,objectArray[i]));
-        }
-        Integer recordIndex = 0;
-      for(int j = 0; j < counterForEachIndex.length-1; j ++);{
-          if(counterForEachIndex[recordIndex]counterForEachIndex[j]){
-                recordIndex =j;
-            }
-            }
-            return objectArray[recordIndex];
-        }
+//      Integer[]counterForEachIndex = new Integer[objectArray.length];
+//      for(int i =0; i<objectArray.length; i++){
+//          counterForEachIndex[i] = getNumberOfOccurrences(objectArray,objectArray[i]));
+//        }
+//        Integer recordIndex = 0;
+//      for(int j = 0; j < counterForEachIndex.length-1; j ++);{
+//          if(counterForEachIndex[recordIndex]counterForEachIndex[j]){
+//                recordIndex =j;
+//            }
+//            }
+//            return objectArray[recordIndex];
+//        }
+        return null;
 
-
+    }
 
     /**
      * @param objectArray      an array of any type of Object
@@ -72,5 +73,5 @@ public class ArrayUtils {
      */
     public static Object[] mergeArrays(Object[] objectArray, Object[] objectArrayToAdd) {
 
-    }
-}
+     return null;
+   }
