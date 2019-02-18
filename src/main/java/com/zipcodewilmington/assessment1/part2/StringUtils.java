@@ -1,8 +1,5 @@
 package com.zipcodewilmington.assessment1.part2;
 
-import com.sun.xml.internal.fastinfoset.util.StringArray;
-
-import javax.print.DocFlavor;
 
 /**
  * Created by leon on 2/16/18.
