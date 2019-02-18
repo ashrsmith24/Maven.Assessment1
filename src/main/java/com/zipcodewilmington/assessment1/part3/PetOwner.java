@@ -39,7 +39,7 @@ public class PetOwner {
      * @return the age of the Pet object whose age field is the lowest amongst all Pets in this class
      */
     public Integer getYoungetPetAge() {
-        return getYoungetPetAge();
+        return null;
 
     }
 
@@ -51,7 +51,7 @@ public class PetOwner {
      */
     public Integer getOldestPetAge() {
 
-        return getOldestPetAge();
+        return null;
     }
 
 
@@ -59,14 +59,14 @@ public class PetOwner {
      * @return the sum of ages of Pet objects stored in this class divided by the number of Pet object
      */
     public Float getAveragePetAge() {
-        return getAveragePetAge();
+        return null;
     }
 
     /**
      * @return the number of Pet objects stored in this class
      */
     public Integer getNumberOfPets() {
-        return getNumberOfPets();
+        return null;
     }
 
     /**
@@ -74,13 +74,13 @@ public class PetOwner {
      */
     public String getName() {
 
-        return ;
+        return null;
     }
 
     /**
      * @return array representation of animals owned by this PetOwner
      */
     public Pet[] getPets() {
-        return getPets();
+        return null;
     }
 }

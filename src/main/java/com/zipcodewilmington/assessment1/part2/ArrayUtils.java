@@ -1,5 +1,7 @@
 package com.zipcodewilmington.assessment1.part2;
 
+import sun.rmi.server.InactiveGroupException;
+
 /**
  * Created by leon on 2/16/18.
  */
@@ -28,7 +30,6 @@ public class ArrayUtils {
      */
     public static Object[] removeValue(Object[] objectArray, Object objectToRemove) {
 
-            return null;
     }
 
     /**
@@ -37,8 +38,7 @@ public class ArrayUtils {
      * given an array of objects, named `objectArray` return the most frequently occuring object in the array
      */
     public static Object getMostCommon(Object[] objectArray) {
-        return  null;
-
+        
 
     }
 
@@ -49,9 +49,20 @@ public class ArrayUtils {
      * given an array of objects, named `objectArray` return the least frequently occuring object in the array
      */
     public static Object getLeastCommon(Object[] objectArray) {
-      return null;
+      Integer[]counterForEachIndex = new Integer[objectArray.length];
+      for(int i =0; i<objectArray.length; i++){
+          counterForEachIndex[i] = getNumberOfOccurrences(objectArray,objectArray[i]));
+        }
+        Integer recordIndex = 0;
+      for(int j = 0; j < counterForEachIndex.length-1; j ++);{
+          if(counterForEachIndex[recordIndex]counterForEachIndex[j]){
+                recordIndex =j;
+            }
+            }
+            return objectArray[recordIndex];
+        }
 
-    }
+
 
     /**
      * @param objectArray      an array of any type of Object
@@ -60,6 +71,6 @@ public class ArrayUtils {
      * given two arrays `objectArray` and `objectArrayToAdd`, return an array containing all elements in `objectArray` and `objectArrayToAdd`
      */
     public static Object[] mergeArrays(Object[] objectArray, Object[] objectArrayToAdd) {
-        return null;
+
     }
 }
