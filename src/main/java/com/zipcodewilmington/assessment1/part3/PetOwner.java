@@ -9,7 +9,10 @@ public class PetOwner {
      * @param pets array of Pet object
      */
     public PetOwner(String name, Pet... pets) {
+        this.getName();
+        this.getPets();
     }
+
 
     /**
      * @param pet pet to be added to the composite collection of Pets
@@ -36,7 +39,8 @@ public class PetOwner {
      * @return the age of the Pet object whose age field is the lowest amongst all Pets in this class
      */
     public Integer getYoungetPetAge() {
-        return null;
+        return getYoungetPetAge();
+
     }
 
 
@@ -46,7 +50,8 @@ public class PetOwner {
      * @return the age of the Pet object whose age field is the highest amongst all Pets in this class
      */
     public Integer getOldestPetAge() {
-        return null;
+
+        return getOldestPetAge();
     }
 
 
@@ -54,27 +59,28 @@ public class PetOwner {
      * @return the sum of ages of Pet objects stored in this class divided by the number of Pet object
      */
     public Float getAveragePetAge() {
-        return null;
+        return getAveragePetAge();
     }
 
     /**
      * @return the number of Pet objects stored in this class
      */
     public Integer getNumberOfPets() {
-        return null;
+        return getNumberOfPets();
     }
 
     /**
      * @return the name property of the Pet
      */
     public String getName() {
-        return null;
+
+        return ;
     }
 
     /**
      * @return array representation of animals owned by this PetOwner
      */
     public Pet[] getPets() {
-        return null;
+        return getPets();
     }
 }

@@ -1,5 +1,7 @@
 package com.zipcodewilmington.assessment1.part1;
 
+import java.awt.geom.RoundRectangle2D;
+
 /**
  * Created by leon on 2/16/18.
  */
@@ -9,7 +11,14 @@ public class IntegerArrayUtils {
      * @return the sum of `intArray`
      */
     public static Integer getSum(Integer[] intArray) {
-        return null;
+        int sum = 0; // initialize sum
+        int i ;
+
+        // Iterate through all elements and add them to sum
+        for (i = 0; i < intArray.length; i++)
+            sum += intArray[i];
+
+        return sum;
     }
 
     /**
@@ -17,7 +26,7 @@ public class IntegerArrayUtils {
      * @return the product of `intArray`
      */
     public static Integer getProduct(Integer[] intArray) {
-        return null;
+    return null;
     }
 
     /**
@@ -25,6 +34,12 @@ public class IntegerArrayUtils {
      * @return the sum of `intArray` divided by number of elements in `intArray`
      */
     public static Double getAverage(Integer[] intArray) {
-        return null;
+        int sum = 0;
+        for (int i=0; i < intArray.length; i++)
+        {
+            sum = sum + intArray[i];
+        }
+        double average = sum / (double)intArray.length;
+        return average;
     }
 }
